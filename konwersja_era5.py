@@ -3,7 +3,7 @@ import numpy as np
 
 # --- KONFIGURACJA ---
 INPUT_CSV   = "C:/Users/dawids/Desktop/PRACA/PROJEKTY/7_PILA/2025/ERA_5/fileb62143b1178_lat=53.25_lng=16.75_period=2023.csv"
-OUTPUT_TXT  = "C:/Users/dawids/Desktop/PRACA/PROJEKTY/7_PILA/2025/ERA_5/solar_PILA_2023.txt"
+OUTPUT_TXT  = "C:/Users/dawids/Desktop/PRACA/PROJEKTY/7_PILA/2025/ERA_5/era5_PILA_2023.txt"
 UTC_OFFSET  = 1  # offset lokalnego czasu (godziny)
 # ----------------------
 

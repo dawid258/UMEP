@@ -2215,7 +2215,7 @@ def load_meteo(path, dir_col, spd_col):
     Wczytuje plik CSV z danymi meteorologicznymi,
     normalizuje kierunek do [0,360) i zwraca DataFrame.
     """
-    df = pd.read_csv(path, sep=';')
+    df = pd.read_csv(path, sep=',')
     df[dir_col] = df[dir_col] % 360
     return df
 
